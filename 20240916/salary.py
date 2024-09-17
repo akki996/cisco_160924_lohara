@@ -37,7 +37,7 @@ def menu():
     if choice == 1:
         salary = float(input("Enter salary:"))
         salary_add(salary)
-        print(salaries)
+
     elif choice == 2:
         salary = float(input("Enter salary:"))
         salary_delete(salary)
